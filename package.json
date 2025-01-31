@@ -1,0 +1,23 @@
+{
+    "name": "x-snc-amazing-app",
+    "version": "1.0.0",
+    "description": "demo IDE",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk deploy",
+        "fetch": "now-sdk fetch",
+        "dependencies": "now-sdk dependencies"
+    },
+    "dependencies": {
+        "lodash.snakecase": "4.1.1"
+    },
+    "devDependencies": {
+        "@types/lodash.snakecase": "4.1.1",
+        "typescript": "5.5.4",
+        "@servicenow/sdk": "2.2.4",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "2.2.4"
+    }
+}
